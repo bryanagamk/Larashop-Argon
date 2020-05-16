@@ -33,6 +33,8 @@ Route::group(
         Route::put('profile', ['as' => 'profile.update', 'uses' => 'ProfileController@update']);
         Route::put('profile/password', ['as' => 'profile.password', 'uses' => 'ProfileController@password']);
 
+        Route::resource('blank', 'BlankController');
+
         Route::get(
             'icons',
             function () {

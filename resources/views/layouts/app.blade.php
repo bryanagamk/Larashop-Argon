@@ -39,6 +39,10 @@
         <script src="{{ asset('argon') }}/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
         
         @stack('js')
+
+        <script src="{{ mix('js/app.js') }}"></script>
+        <script src="{{ asset('vendor/datatables/buttons.server-side.js') }}"></script>
+        @stack('scripts')
         
         <!-- Argon JS -->
         <script src="{{ asset('argon') }}/js/argon.js?v=1.0.0"></script>

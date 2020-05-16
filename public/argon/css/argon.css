@@ -2326,6 +2326,16 @@ pre code
     border: 0;
 }
 
+.dataTables_wrapper {
+    padding: 1.25rem 1.5rem;
+}
+
+.dataTables_info {
+    margin: 1.25rem 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
 .form-control
 {
     font-size: 1rem;
@@ -6045,12 +6055,17 @@ input[type='button'].btn-block
 .pagination
 {
     display: flex;
+    justify-content: center;
 
     padding-left: 0;
 
     list-style: none;
 
     border-radius: .375rem;
+}
+
+.paginate_button {
+    margin: 8px;
 }
 
 .page-link
@@ -20212,12 +20227,12 @@ textarea[resize='horizontal']
 .page-item .page-link,
 .page-item span
 {
-    font-size: .875rem; 
+    font-size: .675rem; 
 
     display: flex;
 
-    width: 36px;
-    height: 36px;
+    width: 48px;
+    height: 48px;
     margin: 0 3px;
     padding: 0;
 
