@@ -2336,8 +2336,13 @@ pre code
     justify-content: center;
 }
 
-.form-section {
-    padding: 1.25rem;
+.form-title-section {
+    padding: 1.5rem 0;
+}
+
+.form-body-section {
+    padding: 1.5rem;
+    background-color: #f7fafc
 }
 
 .form-control

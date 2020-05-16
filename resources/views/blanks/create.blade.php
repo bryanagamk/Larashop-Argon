@@ -115,61 +115,73 @@
 
                     <div class="card-body col-12">
                         <div class="row">
-                            <div class="col-lg-4 col-sm-12 form-section">
-                                <h4>Title Section</h4>
-                            </div>
-                            <div class="col-lg-8 col-sm-12 bg-secondary form-section">
-                                <div class="form-group">
-                                    <h5>Default Input</h5>
-                                    <input type="text" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <h5>Default Input</h5>
-                                    <input type="text" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <h5>Default Input</h5>
-                                    <input type="text" class="form-control">
+                            <div class="col-lg-4 col-sm-12">
+                                <div class="form-title-section">
+                                    <h4>Title Section</h4>
                                 </div>
                             </div>
-                        </div>
-                        <hr>
-                        <div class="row">
-                            <div class="col-lg-4 col-sm-12 form-section">
-                                <h4>Title Section</h4>
-                            </div>
-                            <div class="col-lg-8 col-sm-12 bg-secondary form-section">
-                                <div class="form-group">
-                                    <h5>Default Input</h5>
-                                    <input type="text" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <h5>Default Input</h5>
-                                    <input type="text" class="form-control">
-                                </div>
-                                <div class="form-group">
-                                    <h5>Default Input</h5>
-                                    <input type="text" class="form-control">
+                            <div class="col-lg-8 col-sm-12">
+                                <div class="form-body-section">
+                                    <div class="form-group">
+                                        <h5>Default Input</h5>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <h5>Default Input</h5>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <h5>Default Input</h5>
+                                        <input type="text" class="form-control">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <hr>
                         <div class="row">
-                            <div class="col-lg-4 col-sm-12 form-section">
-                                <h4>Title Section</h4>
+                            <div class="col-lg-4 col-sm-12">
+                                <div class="form-title-section">
+                                    <h4>Title Section</h4>
+                                </div>
                             </div>
-                            <div class="col-lg-8 col-sm-12 bg-secondary form-section">
-                                <div class="form-group">
-                                    <h5>Default Input</h5>
-                                    <input type="text" class="form-control">
+                            <div class="col-lg-8 col-sm-12">
+                                <div class="form-body-section">
+                                    <div class="form-group">
+                                        <h5>Default Input</h5>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <h5>Default Input</h5>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <h5>Default Input</h5>
+                                        <input type="text" class="form-control">
+                                    </div>
                                 </div>
-                                <div class="form-group">
-                                    <h5>Default Input</h5>
-                                    <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12">
+                                <div class="form-title-section">
+                                    <h4>Title Section</h4>
                                 </div>
-                                <div class="form-group">
-                                    <h5>Default Input</h5>
-                                    <input type="text" class="form-control">
+                            </div>
+                            <div class="col-lg-8 col-sm-12">
+                                <div class="form-body-section">
+                                    <div class="form-group">
+                                        <h5>Default Input</h5>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <h5>Default Input</h5>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <h5>Default Input</h5>
+                                        <input type="text" class="form-control">
+                                    </div>
                                 </div>
                             </div>
                         </div>
