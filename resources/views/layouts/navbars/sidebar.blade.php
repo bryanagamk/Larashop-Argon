@@ -112,6 +112,11 @@
                 </li>
 
                 <li class="nav-item">
+                    <a class="nav-link" href="{{route('blank.index')}}">
+                        <i class="ni ni-archive-2 text-red"></i> {{ __('Blank') }}
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="{{route('icons')}}">
                         <i class="ni ni-planet text-blue"></i> {{ __('Icons') }}
                     </a>
