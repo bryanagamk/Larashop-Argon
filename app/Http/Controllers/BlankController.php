@@ -25,7 +25,7 @@ class BlankController extends Controller
      */
     public function create()
     {
-        //
+        return view('blanks.create');
     }
 
     /**

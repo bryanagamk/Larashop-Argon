@@ -1,4 +1,4 @@
-@extends('layouts.app', ['title' => __('Blank List')])
+@extends('layouts.app', ['title' => __('Add Blank')])
 
 @section('content')
 <div class="main-content">
@@ -102,10 +102,10 @@
                     <div class="card-header border-0">
                         <div class="row align-items-center">
                             <div class="col-8">
-                                <h3 class="mb-0">Blanks</h3>
+                                <h3 class="mb-0">Add Blank</h3>
                             </div>
                             <div class="col-4 text-right">
-                                <a href="{{route('blank.create')}}" class="btn btn-sm btn-primary">Add blank</a>
+                                <a href="" class="btn btn-sm btn-primary">Save</a>
                             </div>
                         </div>
                     </div>
@@ -113,14 +113,68 @@
                     <div class="col-12">
                     </div>
 
-                    <div class="table-responsive">
-                        {{$dataTable->table()}}
+                    <div class="card-body col-12">
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12 form-section">
+                                <h4>Title Section</h4>
+                            </div>
+                            <div class="col-lg-8 col-sm-12 bg-secondary form-section">
+                                <div class="form-group">
+                                    <h5>Default Input</h5>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <h5>Default Input</h5>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <h5>Default Input</h5>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12 form-section">
+                                <h4>Title Section</h4>
+                            </div>
+                            <div class="col-lg-8 col-sm-12 bg-secondary form-section">
+                                <div class="form-group">
+                                    <h5>Default Input</h5>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <h5>Default Input</h5>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <h5>Default Input</h5>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-12 form-section">
+                                <h4>Title Section</h4>
+                            </div>
+                            <div class="col-lg-8 col-sm-12 bg-secondary form-section">
+                                <div class="form-group">
+                                    <h5>Default Input</h5>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <h5>Default Input</h5>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <h5>Default Input</h5>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer py-4">
-                        <nav class="d-flex justify-content-end" aria-label="...">
 
-                        </nav>
-                    </div>
                 </div>
             </div>
         </div>
@@ -128,7 +182,3 @@
     </div>
 </div>
 @endsection
-
-@push('scripts')
-{{$dataTable->scripts()}}
-@endpush
